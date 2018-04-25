@@ -41,16 +41,13 @@
       ]
     },
     "path": "@PROJECT_PATH@",
-    "screenshot": "screenshot.png",
-    "favicon": "",
-    "noImageResize": "",
-    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-118191061-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-118191061-1');\r\n</script>"
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Kapsule ",
+        "title": "Home",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
