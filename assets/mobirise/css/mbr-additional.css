@@ -85,7 +85,7 @@ body {
   }
 }
 .btn {
-  font-weight: 500;
+  font-weight: 600;
   border-width: 2px;
   font-style: normal;
   letter-spacing: 1px;
@@ -103,6 +103,7 @@ body {
   display: -webkit-inline-flex;
   padding: 1rem 3rem;
   border-radius: 3px;
+
 }
 .btn-sm {
   font-weight: 500;
@@ -135,6 +136,7 @@ body {
 }
 .btn-primary,
 .btn-primary:active {
+  border-radius: 8px;
   background-color: #ef2d56 !important;
   border-color: #ef2d56 !important;
   color: #fff !important;
@@ -250,15 +252,15 @@ a.text-white:hover {
   background-color: #b1a374;
 }
 .mbr-section-btn a.btn:not(.btn-form) {
-  border-radius: 3px;
+  border-radius: 8px;
 }
 .mbr-section-btn a.btn:not(.btn-form):focus,
 .mbr-section-btn a.btn:not(.btn-form):hover {
   box-shadow: none !important;
 }
-.mbr-section-btn a.btn:not(.btn-form):focus,
+/* .mbr-section-btn a.btn:not(.btn-form):focus,
 .mbr-section-btn a.btn:not(.btn-form):hover {
-  /* box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2) !important;
   -webkit-box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2) !important; */
 }
 .btn-form {
@@ -742,7 +744,7 @@ html {
   text-align: center;
 }
 .cid-qOboVaojZI .carousel-item .wrap-img img {
-  max-height: 150px;
+  max-height: 72px;
   width: auto;
   max-width: 100%;
 }
@@ -911,13 +913,15 @@ html {
 .cid-qObsNGXr2v .media-row {
   display: flex;
   justify-content: center;
+  
 }
 .cid-qObsNGXr2v .team-item {
   transition: all 0.2s;
   margin-bottom: 2rem;
 }
 .cid-qObsNGXr2v .team-item .item-image img {
-  width: 100%;
+  width: 120px;
+  border-radius: 10px 10px 0px 0px;
 }
 .cid-qObsNGXr2v .team-item .item-name p {
   margin-bottom: 0;
@@ -936,15 +940,19 @@ html {
 }
 .cid-qObsNGXr2v .team-item .item-caption {
   background: #efefef;
+  border-radius: 10px 10px 0px 0px;
+  padding: 1rem;
+
 }
 .cid-qObsNGXr2v .item-role P {
   text-align: center;
 }
 .cid-stDpAxIwjx {
-  padding-top: 1rem;
+  padding-top: 2rem;
   padding-bottom: 1rem;
   background-color: #fff;
 }
+
 .cid-stDpAxIwjx form .mbr-section-btn {
   text-align: center;
   width: 100%;
@@ -1230,17 +1238,14 @@ html {
 .cid-svwKiUlvZw {
   display: flex;
   background-image: url("../../../assets/images/hero image.svg");
-}
-.cid-svwKiUlvZw .mbr-overlay {
-  background-color: #ffffff;
-  opacity: 0.2;
+  height:100vh;
 }
 @media (min-width: 768px) {
   .cid-svwKiUlvZw {
     align-items: flex-end;
   }
   .cid-svwKiUlvZw .content-wrap {
-    padding: 15rem 5rem;
+    padding: 6rem 5rem;
   }
   .cid-svwKiUlvZw .row {
     justify-content: flex-end;
@@ -1260,7 +1265,7 @@ html {
     align-items: center;
   }
   .cid-svwKiUlvZw .content-wrap {
-    padding: 15rem 1rem;
+    padding: 6rem 1rem;
   }
   .cid-svwKiUlvZw .mbr-row {
     -webkit-justify-content: right;
