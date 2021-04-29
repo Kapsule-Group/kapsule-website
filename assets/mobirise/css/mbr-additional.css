@@ -800,6 +800,11 @@ html {
   padding-bottom: 60px;
   background-color: #fff;
 }
+.cid-qOeREBidgp .mbr-overlay {
+  background-color: #127c73;
+  background-image: url("../../../assets/images/pexels-pixabay-1592111-2000x1333.jpg"); 
+
+}
 .cid-qOeREBidgp .mbr-section-subtitle {
   color: #767676;
 }
@@ -1239,6 +1244,7 @@ html {
   display: flex;
   background-image: url("../../../assets/images/hero image.svg");
   height:100vh;
+  background-color: #127c73;
 }
 @media (min-width: 768px) {
   .cid-svwKiUlvZw {
@@ -1284,3 +1290,22 @@ html {
 .cid-svwKiUlvZw .mbr-section-btn {
   text-align: right;
 }
+
+.cid-svXDzPLIL6 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #127c73;
+  background-image: url("../../../assets/images/pexels-pixabay-1592111-2000x1333.jpg"); 
+  opacity: 0.6;
+}
+.cid-svXDzPLIL6 .mbr-text,
+.cid-svXDzPLIL6 .mbr-section-btn {
+  color: #232323;
+}
+.cid-svXDzPLIL6 .card-title,
+.cid-svXDzPLIL6 .card-box {
+  color: #ffffff;
+}
+.cid-svXDzPLIL6 .mbr-text,
+.cid-svXDzPLIL6 .link-wrap {
+  color: #ffffff;
