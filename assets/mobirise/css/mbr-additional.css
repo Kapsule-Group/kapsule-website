@@ -1246,6 +1246,12 @@ html {
   height:100vh;
   background-color: #127c73;
 }
+
+.cid-svwKiUlvZw .mbr-overlay {
+  background-color: #003249;
+  opacity: 0.2;
+}
+
 @media (min-width: 768px) {
   .cid-svwKiUlvZw {
     align-items: flex-end;
